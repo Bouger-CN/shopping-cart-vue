@@ -13,3 +13,5 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+Vue.use(router)
+var router = new VueRouter()
